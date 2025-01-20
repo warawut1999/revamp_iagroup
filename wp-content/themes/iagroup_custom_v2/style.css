@@ -1,0 +1,148 @@
+/*!
+Theme Name: iA Group Custom V2
+Theme URI: https://creativethemes.com/blocksy/
+Author: iAgroup Company
+Author URI: https://creativethemes.com
+Description: Blocksy is a blazing fast and lightweight WordPress theme built with the latest web technologies. It was built with the Gutenberg editor in mind and has a lot of options that makes it extendable and customizable. You can easily create any type of website, such as business agency, shop, corporate, education, restaurant, blog, portfolio, landing page and so on. It works like a charm with popular WordPress page builders, including Elementor, Beaver Builder, Visual Composer and Brizy. Since it is responsive and adaptive, translation ready, SEO optimized and has WooCommerce built-in, you will experience an easy build and even an increase in conversions.
+Version: 2.0.83
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Copyright: (c) 2019 CreativeThemes.
+Requires at least: 5.2
+Requires PHP: 7.0
+Tested up to: 6.7
+Text Domain: blocksy
+Blocksy Minimum Companion Version: 2.0.74-beta1
+Tags: blog, e-commerce, wide-blocks, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, translation-ready, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, buddypress, rtl-language-support, news
+*/
+
+:root {
+    --primary-color: #f7941e;
+    --secondary-color: #3a4f66;
+}
+
+.site-title-container span a {
+    color: var(--secondary-color) !important;
+}
+
+.ct-header-search {
+    width: 40px;
+    height: 40px;
+    background-color: #faeeed !important;
+    border-radius: 50% !important;
+}
+
+.ct-button:hover {
+    text-decoration: none;
+}
+
+.recaptcha-layout {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 25px 0px;
+}
+
+button.ct-header-search:hover {
+    background-color: var(--secondary-color) !important;
+}
+
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input.form-control::placeholder {
+    color: #828282;
+    opacity: 1;
+}
+
+select.form-control {
+    color: #828282;
+    opacity: 1;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.line-2 {
+    line-height: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn-send {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    background-color: var(--secondary-color);
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    gap: 24px;
+    margin-bottom: 36px;
+}
+
+.privacy-policy {
+    margin-top: 20px;
+    font-size: 12px;
+
+    a {
+        color: var(--primary-color);
+    }
+
+    a:hover {
+        color: #4f4f4f;
+    }
+}
+
+.btn-send {
+    display: -webkit-box;
+    height: 50px;
+    min-width: 233px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid var(--primary-color) !important;
+    box-shadow: 0 0 5px var(--primary-color) !important;
+}
